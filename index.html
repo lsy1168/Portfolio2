@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lekton:wght@300;400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="Web">
+      <div class="web-container">
+        <header>
+          <div class="ch-btn">
+            <span>
+              <button id="toggleMode">
+                <img
+                  src="./img/sun.png"
+                  data-light-src="./img/moon.png"
+                  data-dark-src="./img/sun.png"
+                  alt="#"
+                />
+              </button>
+            </span>
+          </div>
+          <div class="gnb-menu">
+            <div class="gnb-menu-inner">
+              <ul class="menu">
+                <li class="about">
+                  <a href="#" data-target="about">
+                    <span class="icon">
+                      <img
+                        src="./img/user.png"
+                        alt=""
+                        id="aboutImg"
+                        data-original-src="./img/user.png"
+                        data-hover-src="./img/user2.png"
+                        data-light-src="./img/user3.png"
+                        data-dark-src="./img/user.png"
+                        data-light-hover-src="./img/user2.png"
+                      />
+                    </span>
+                    <span class="name">About</span>
+                  </a>
+                </li>
+                <li class="resume">
+                  <a href="#" data-target="resume">
+                    <span class="icon">
+                      <img
+                        src="./img/cv.png"
+                        alt=""
+                        id="resumeImg"
+                        data-original-src="./img/cv.png"
+                        data-hover-src="./img/cv2.png"
+                        data-light-src="./img/cv3.png"
+                        data-dark-src="./img/cv.png"
+                        data-light-hover-src="./img/cv2.png"
+                      />
+                    </span>
+                    <span class="name">Resume</span>
+                  </a>
+                </li>
+                <li class="project">
+                  <a href="#" data-target="project">
+                    <span class="icon">
+                      <img
+                        src="./img/project.png"
+                        alt=""
+                        id="projectImg"
+                        data-original-src="./img/project.png"
+                        data-hover-src="./img/project2.png"
+                        data-light-src="./img/project3.png"
+                        data-dark-src="./img/project.png"
+                        data-light-hover-src="./img/project2.png"
+                      />
+                    </span>
+                    <span class="name">Project</span>
+                  </a>
+                </li>
+                <li class="contact">
+                  <a href="#" data-target="contact">
+                    <span class="icon">
+                      <img
+                        src="./img/plane.png"
+                        alt=""
+                        id="contactImg"
+                        data-original-src="./img/plane.png"
+                        data-hover-src="./img/plane2.png"
+                        data-light-src="./img/plane3.png"
+                        data-dark-src="./img/plane.png"
+                        data-light-hover-src="./img/plane2.png"
+                      />
+                    </span>
+                    <span class="name">Contact</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+        <main>
+          <div class="card-started">
+            <div class="profile">
+              <div class="profile-content">
+                <div class="profile-top">
+                  <div class="top-inner">
+                    <div class="profile-top-img">
+                      <img
+                        src="./img/16240_9455_4715.jpg"
+                        data-light-src="../img/16240_9455_4715.jpg"
+                        data-dark-src="./img/16240_9455_4715.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="profile-image">
+                  <a>
+                    <img
+                      src="./img/lsy.png"
+                      data-light-src="./img/lsy.png"
+                      data-dark-src="./img/lsy.png"
+                      alt=""
+                    />
+                  </a>
+                </div>
+                <div class="profile-title">임성령</div>
+                <div class="text_box">
+                  <span class="text"></span><span class="blink">|</span>
+                </div>
+              </div>
+              <div class="lnks">
+                <a
+                  href="https://drive.google.com/file/d/1ZkyI0PtbnVWvjV_yBjUy6ueIqujomNI-/view?usp=drive_link"
+                  target="_blank"
+                  class="lnk"
+                >
+                  <span class="text">이력서</span>
+                  <img
+                    src="./img/cloud-download.png"
+                    data-light-src="./img/cloud-download2.png"
+                    data-dark-src="./img/cloud-download.png"
+                    alt=""
+                  />
+                </a>
+                <a
+                  href="https://github.com/lsy1168"
+                  class="lnk"
+                  target="_blank"
+                >
+                  <span class="text">깃허브</span>
+                  <img
+                    src="./img/github.png"
+                    data-light-src="./img/github2.png"
+                    data-dark-src="./img/github.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card-inner" id="about">
+            <div class="card-wrap">
+              <div class="content about">
+                <div class="title">
+                  <span class="first-word"></span>
+                  <span><span class="tic1">A</span>bout Me</span>
+                </div>
+                <div class="row">
+                  <div class="col col-d-6 col-t-12 col-m-12 border-line-v">
+                    <div class="text-box">
+                      <div>
+                        <p>
+                          <strong
+                            >안녕하세요! 저는 인간챗 GPT 임성령입니다.</strong
+                          ><br />새로운 기술과 트렌드를 습득하고 적용하여
+                          사용자들에게 멋진 경험을 선사하는 것을 즐기며, 이를
+                          위해 공부하며 항상 노력합니다. 또한, 팀원들과의 원활한
+                          소통과 협력을 통해 목표를 달성하는 것을 중요하게
+                          생각합니다. 업무에 대해서는 항상 최선을 다하며, 문제가
+                          발생했을 때는 창의적인 해결책을 찾아내고자 합니다.
+                          앞으로의 도전과 성장을 향해 기대하며, 팀원 및 회사와
+                          함께 성장하는 모습을 기대하고있습니다. 함께하는 모든
+                          순간이 소중하고 의미있기를 바랍니다. 감사합니다!
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col col-d-6 col-t-12 col-m-12 border-line-v">
+                    <div class="info-list">
+                      <ul>
+                        <li>
+                          <strong><span>나이</span></strong>
+                          <span>만 29세</span>
+                        </li>
+                        <li>
+                          <strong><span>거주</span></strong>
+                          <span>경기도 남양주</span>
+                        </li>
+                        <li>
+                          <strong><span>연락처</span></strong>
+                          <span>010.8769.5502</span>
+                        </li>
+                        <li>
+                          <strong><span>이메일</span></strong>
+                          <span>dtf5508@gmail.com</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content personalities">
+                <div class="title">
+                  <span class="first-word"></span>
+                  <span><span class="tic1">P</span>ersonalities</span>
+                </div>
+                <div class="row service-items border-line-v">
+                  <!-- service item -->
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                    <div class="service-item">
+                      <div class="icon">
+                        <img
+                          src="./img/muscles.png"
+                          data-light-src="./img/muscles.png"
+                          data-dark-src="./img/muscles.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name">
+                        <span> #긍정적인 </span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            항상 긍정적인 자세로 매사에 임합니다. 어려움
+                            속에서도 기회를 찾아내며, 긍정의 힘으로 팀에 활력을
+                            불어넣습니다. 모든 도전 과제에 긍정적인 해결책을
+                            모색하는 것이 저의 강점입니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- service item -->
+                  <div class="col col-d-6 col-t-6 col-m-12 border-line-h">
+                    <div class="service-item">
+                      <div class="icon">
+                        <img
+                          src="./img/sticky-notes.png"
+                          data-light-src="./img/sticky-notes.png"
+                          data-dark-src="./img/sticky-notes.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name">
+                        <span> #계획적인 </span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            계획적인 접근으로 모든 업무에 임합니다. 체계적인
+                            계획 수립과 철저한 시간 관리로 목표를 달성하며, 예측
+                            가능한 결과를 위해 항상 준비를 갖춥니다. 이런 자세가
+                            업무의 밑바탕이 됩니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- service item -->
+                  <div class="col col-d-6 col-t-6 col-m-12">
+                    <div class="service-item">
+                      <div class="icon">
+                        <img
+                          src="./img/smile-hand-drawn-emoticon.png"
+                          data-light-src="./img/smile-hand-drawn-emoticon.png"
+                          data-dark-src="./img/smile-hand-drawn-emoticon.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name">
+                        <span> #웃음많은 </span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            웃음이 많은 사람으로, 긍정적인 분위기를 조성합니다.
+                            항상 밝은 에너지로 팀원들과 소통하며, 즐거운 분위기
+                            속에서 일의 효율성을 높입니다. 제 웃음은 팀의 사기를
+                            북돋우는 중요한 요소입니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- service item -->
+                  <div class="col col-d-6 col-t-6 col-m-12">
+                    <div class="service-item">
+                      <div class="icon">
+                        <img
+                          src="./img/trendy.png"
+                          data-light-src="./img/trendy.png"
+                          data-dark-src="./img/trendy.png"
+                          alt=""
+                        />
+                      </div>
+                      <div class="name">
+                        <span> #트렌디한 </span>
+                      </div>
+                      <div class="desc">
+                        <div>
+                          <p>
+                            트렌디한 감각을 지니고 있어 최신 트렌드를 빠르게
+                            파악합니다. 항상 변화하는 시장 동향에 맞춰 창의적인
+                            아이디어를 제시하며, 현대적인 접근 방식으로
+                            프로젝트를 성공적으로 이끌어갑니다.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content fuct">
+                <div class="title">
+                  <span class="first-word"></span>
+                  <span><span class="tic1">F</span>un Facts</span>
+                </div>
+                <div class="row fuct-items">
+                  <!-- fuct item -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="fuct-item">
+                      <div class="icon">
+                        <svg
+                          aria-hidden="true"
+                          class="e-font-icon-svg e-fas-compact-disc"
+                          viewBox="0 0 496 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zM88 256H56c0-105.9 86.1-192 192-192v32c-88.2 0-160 71.8-160 160zm160 96c-53 0-96-43-96-96s43-96 96-96 96 43 96 96-43 96-96 96zm0-128c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="name">
+                        <span> 200곡 이상의 제이팝 듣기 </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fuct item -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="fuct-item">
+                      <div class="icon">
+                        <svg
+                          aria-hidden="true"
+                          class="e-font-icon-svg e-fas-award"
+                          viewBox="0 0 384 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M97.12 362.63c-8.69-8.69-4.16-6.24-25.12-11.85-9.51-2.55-17.87-7.45-25.43-13.32L1.2 448.7c-4.39 10.77 3.81 22.47 15.43 22.03l52.69-2.01L105.56 507c8 8.44 22.04 5.81 26.43-4.96l52.05-127.62c-10.84 6.04-22.87 9.58-35.31 9.58-19.5 0-37.82-7.59-51.61-21.37zM382.8 448.7l-45.37-111.24c-7.56 5.88-15.92 10.77-25.43 13.32-21.07 5.64-16.45 3.18-25.12 11.85-13.79 13.78-32.12 21.37-51.62 21.37-12.44 0-24.47-3.55-35.31-9.58L252 502.04c4.39 10.77 18.44 13.4 26.43 4.96l36.25-38.28 52.69 2.01c11.62.44 19.82-11.27 15.43-22.03zM263 340c15.28-15.55 17.03-14.21 38.79-20.14 13.89-3.79 24.75-14.84 28.47-28.98 7.48-28.4 5.54-24.97 25.95-45.75 10.17-10.35 14.14-25.44 10.42-39.58-7.47-28.38-7.48-24.42 0-52.83 3.72-14.14-.25-29.23-10.42-39.58-20.41-20.78-18.47-17.36-25.95-45.75-3.72-14.14-14.58-25.19-28.47-28.98-27.88-7.61-24.52-5.62-44.95-26.41-10.17-10.35-25-14.4-38.89-10.61-27.87 7.6-23.98 7.61-51.9 0-13.89-3.79-28.72.25-38.89 10.61-20.41 20.78-17.05 18.8-44.94 26.41-13.89 3.79-24.75 14.84-28.47 28.98-7.47 28.39-5.54 24.97-25.95 45.75-10.17 10.35-14.15 25.44-10.42 39.58 7.47 28.36 7.48 24.4 0 52.82-3.72 14.14.25 29.23 10.42 39.59 20.41 20.78 18.47 17.35 25.95 45.75 3.72 14.14 14.58 25.19 28.47 28.98C104.6 325.96 106.27 325 121 340c13.23 13.47 33.84 15.88 49.74 5.82a39.676 39.676 0 0 1 42.53 0c15.89 10.06 36.5 7.65 49.73-5.82zM97.66 175.96c0-53.03 42.24-96.02 94.34-96.02s94.34 42.99 94.34 96.02-42.24 96.02-94.34 96.02-94.34-42.99-94.34-96.02z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="name">
+                        <span> 잠 참기 대회 1등 수상 </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fuct item -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="fuct-item">
+                      <div class="icon">
+                        <svg
+                          aria-hidden="true"
+                          class="e-font-icon-svg e-fab-js"
+                          viewBox="0 0 448 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="name">
+                        <span> 10,000줄 이상 작성 </span>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- fuct item -->
+                  <div class="col col-d-3 col-t-3 col-m-6 border-line-v">
+                    <div class="fuct-item">
+                      <div class="icon">
+                        <svg
+                          aria-hidden="true"
+                          class="e-font-icon-svg e-fas-flag-checkered"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M243.2 189.9V258c26.1 5.9 49.3 15.6 73.6 22.3v-68.2c-26-5.8-49.4-15.5-73.6-22.2zm223.3-123c-34.3 15.9-76.5 31.9-117 31.9C296 98.8 251.7 64 184.3 64c-25 0-47.3 4.4-68 12 2.8-7.3 4.1-15.2 3.6-23.6C118.1 24 94.8 1.2 66.3 0 34.3-1.3 8 24.3 8 56c0 19 9.5 35.8 24 45.9V488c0 13.3 10.7 24 24 24h16c13.3 0 24-10.7 24-24v-94.4c28.3-12.1 63.6-22.1 114.4-22.1 53.6 0 97.8 34.8 165.2 34.8 48.2 0 86.7-16.3 122.5-40.9 8.7-6 13.8-15.8 13.8-26.4V95.9c.1-23.3-24.2-38.8-45.4-29zM169.6 325.5c-25.8 2.7-50 8.2-73.6 16.6v-70.5c26.2-9.3 47.5-15 73.6-17.4zM464 191c-23.6 9.8-46.3 19.5-73.6 23.9V286c24.8-3.4 51.4-11.8 73.6-26v70.5c-25.1 16.1-48.5 24.7-73.6 27.1V286c-27 3.7-47.9 1.5-73.6-5.6v67.4c-23.9-7.4-47.3-16.7-73.6-21.3V258c-19.7-4.4-40.8-6.8-73.6-3.8v-70c-22.4 3.1-44.6 10.2-73.6 20.9v-70.5c33.2-12.2 50.1-19.8 73.6-22v71.6c27-3.7 48.4-1.3 73.6 5.7v-67.4c23.7 7.4 47.2 16.7 73.6 21.3v68.4c23.7 5.3 47.6 6.9 73.6 2.7V143c27-4.8 52.3-13.6 73.6-22.5z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="name">
+                        <span> 시작하면 끝을 보는 </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="clear"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-inner" id="resume" style="display: none">
+            <div class="card-wrap">
+              <div class="content resume">
+                <div class="title">
+                  <span class="first-word"></span>
+                  <span><span class="tic1">R</span>esume</span>
+                </div>
+                <div class="resume-sections">
+                  <div class="section">
+                    <div class="section-title">
+                      <div class="icon">
+                        <img
+                          src="./img/portfolio.png"
+                          data-light-src="./img/portfolio.png"
+                          data-dark-src="./img/portfolio.png"
+                          alt="Experience Icon"
+                        />
+                      </div>
+                      <div class="name"><span>Experience</span></div>
+                    </div>
+                    <div class="resume-item">
+                      <div class="date">2018 - 2021</div>
+                      <h3>씨티컴퍼니</h3>
+                      <div class="company">영업</div>
+                      <p>제품판매, 고객관리</p>
+                    </div>
+                    <div class="resume-item">
+                      <div class="date">2017 - 2018</div>
+                      <h3>제니스캐피탈</h3>
+                      <div class="company">TM영업</div>
+                      <p>고객응대, 고객관리</p>
+                    </div>
+                    <div class="resume-item">
+                      <div class="date">2014 - 2016</div>
+                      <h3>롯데하이마트</h3>
+                      <div class="company">영업</div>
+                      <p>재고관리, 고객응대, 판매교육</p>
+                    </div>
+                  </div>
+                  <div class="section">
+                    <div class="section-title">
+                      <div class="icon">
+                        <img
+                          src="./img/graduate-hat.png"
+                          data-light-src="./img/graduate-hat.png"
+                          data-dark-src="./img/graduate-hat.png"
+                          alt="Education Icon"
+                        />
+                      </div>
+                      <div class="name"><span>Education</span></div>
+                    </div>
+                    <div class="resume-item">
+                      <div class="date">2023 - 2024</div>
+                      <h3>스마트-UI/UX반응형 웹퍼블리셔</h3>
+                      <div class="company">그린컴퓨터아카데미</div>
+                      <p>
+                        교과 과정 - Git, Html, Css, Scss, Javascript, J-query
+                      </p>
+                    </div>
+                    <div class="resume-item">
+                      <div class="date">2022 - 2024</div>
+                      <h3>글로벌이노에듀 (학점은행제)</h3>
+                      <div class="company">사회복지과</div>
+                      <p>사회복지사 2급</p>
+                    </div>
+                    <div class="resume-item">
+                      <div class="date">2010 - 2013</div>
+                      <h3>금곡고등학교</h3>
+                      <div class="company">인문계</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="content skills">
+                <div class="title">
+                  <span class="first-word"></span>
+                  <span><span class="tic1">S</span>kills</span>
+                </div>
+                <div class="skills-sections">
+                  <div class="section">
+                    <div class="section-title">
+                      <div class="icon">
+                        <svg
+                          aria-hidden="true"
+                          class="e-font-icon-svg e-fas-code"
+                          viewBox="0 0 640 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M278.9 511.5l-61-17.7c-6.4-1.8-10-8.5-8.2-14.9L346.2 8.7c1.8-6.4 8.5-10 14.9-8.2l61 17.7c6.4 1.8 10 8.5 8.2 14.9L293.8 503.3c-1.9 6.4-8.5 10.1-14.9 8.2zm-114-112.2l43.5-46.4c4.6-4.9 4.3-12.7-.8-17.2L117 256l90.6-79.7c5.1-4.5 5.5-12.3.8-17.2l-43.5-46.4c-4.5-4.8-12.1-5.1-17-.5L3.8 247.2c-5.1 4.7-5.1 12.8 0 17.5l144.1 135.1c4.9 4.6 12.5 4.4 17-.5zm327.2.6l144.1-135.1c5.1-4.7 5.1-12.8 0-17.5L492.1 112.1c-4.8-4.5-12.4-4.3-17 .5L431.6 159c-4.6 4.9-4.3 12.7.8 17.2L523 256l-90.6 79.7c-5.1 4.5-5.5 12.3-.8 17.2l43.5 46.4c4.5 4.9 12.1 5.1 17 .6z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="name"><span>CODING</span></div>
+                    </div>
+                    <div class="skill-item">
+                      <div class="circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                          <path
+                            class="circle-bg"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <path
+                            class="circle"
+                            stroke-dasharray="95, 100"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <text x="18" y="20.35" class="percentage">95%</text>
+                        </svg>
+                      </div>
+                      <p>HTML / CSS</p>
+                    </div>
+                    <div class="skill-item">
+                      <div class="circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                          <path
+                            class="circle-bg"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <path
+                            class="circle"
+                            stroke-dasharray="75, 100"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <text x="18" y="20.35" class="percentage">75%</text>
+                        </svg>
+                      </div>
+                      <p>PHP / Figma</p>
+                    </div>
+                    <div class="skill-item">
+                      <div class="circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                          <path
+                            class="circle-bg"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <path
+                            class="circle"
+                            stroke-dasharray="65, 100"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <text x="18" y="20.35" class="percentage">65%</text>
+                        </svg>
+                      </div>
+                      <p>JS / JQ</p>
+                    </div>
+                    <div class="skill-item">
+                      <div class="circle">
+                        <svg viewBox="0 0 36 36" class="circular-chart orange">
+                          <path
+                            class="circle-bg"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <path
+                            class="circle"
+                            stroke-dasharray="70, 100"
+                            d="M18 2.0845
+                                a 15.9155 15.9155 0 0 1 0 31.831
+                                a 15.9155 15.9155 0 0 1 0 -31.831"
+                          />
+                          <text x="18" y="20.35" class="percentage">70%</text>
+                        </svg>
+                      </div>
+                      <p>SCSS</p>
+                    </div>
+                  </div>
+                  <div class="section">
+                    <div class="section-title">
+                      <div class="icon df">
+                        <svg
+                          aria-hidden="true"
+                          class="e-font-icon-svg e-fas-list"
+                          viewBox="0 0 512 512"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M80 368H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm0-320H16A16 16 0 0 0 0 64v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16V64a16 16 0 0 0-16-16zm0 160H16a16 16 0 0 0-16 16v64a16 16 0 0 0 16 16h64a16 16 0 0 0 16-16v-64a16 16 0 0 0-16-16zm416 176H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16zm0-320H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16V80a16 16 0 0 0-16-16zm0 160H176a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h320a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16z"
+                          ></path>
+                        </svg>
+                      </div>
+                      <div class="name"><span>KNOWLEDGE</span></div>
+                    </div>
+                    <ul class="knowledge-list">
+                      <li>GitHub : 코드 버전 관리 및 협업 도구 활용</li>
+                      <li>HTML, CSS, jS, JQ : 웹 개발 기본 기술 사용가능</li>
+                      <li>ChatGPT : AI 언어 모델 활용 능력</li>
+                      <li>
+                        반응형 및 모바일 준비: 모든 장치에서 최적화된 웹사이트
+                        설계
+                      </li>
+                      <li>검색 엔진 마케팅: 검색 엔진을 통한 마케팅 전략</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-inner" id="project" style="display: none">
+            <div class="card-wrap">
+              <div class="content project">
+                <div class="title">
+                  <span class="first-word"></span>
+                  <span><span class="tic1">P</span>roject</span>
+                </div>
+                <div class="projects-grid">
+                  <div class="project-item">
+                    <div class="image">
+                      <a
+                        href="#"
+                        onclick="showProjectDetails(event, 'project1-details')"
+                      >
+                        <img
+                          src="./img/p1.png"
+                          data-light-src="./img/p1.png"
+                          data-dark-src="./img/p1.png"
+                          alt="Weather Mobile App"
+                        />
+                      </a>
+                    </div>
+                    <div class="project-info">
+                      <h3>병무청</h3>
+                      <p>프로젝트1</p>
+                    </div>
+                  </div>
+                  <div class="project-item">
+                    <div class="image">
+                      <a
+                        href="#"
+                        onclick="showProjectDetails(event, 'project2-details')"
+                      >
+                        <img
+                          src="./img/p2.png"
+                          data-light-src="./img/p2.png"
+                          data-dark-src="./img/p2.png"
+                          alt="Weather Mobile App"
+                        />
+                      </a>
+                    </div>
+                    <div class="project-info">
+                      <h3>카카오</h3>
+                      <p>프로젝트2</p>
+                    </div>
+                  </div>
+                  <div class="project-item">
+                    <div class="image">
+                      <a
+                        href="#"
+                        onclick="showProjectDetails(event, 'project3-details')"
+                      >
+                        <img
+                          src="./img/fifago.jpg"
+                          data-light-src="./img/fifago.jpg"
+                          data-dark-src="./img/fifago.jpg"
+                          alt="Weather Mobile App"
+                        />
+                      </a>
+                    </div>
+                    <div class="project-info">
+                      <h3>피파고</h3>
+                      <p>팀프로젝트</p>
+                    </div>
+                  </div>
+                  <div class="project-item">
+                    <div class="image">
+                      <a
+                        href="#"
+                        onclick="showProjectDetails(event, 'project4-details')"
+                      >
+                        <img
+                          src="./img/pf1.png"
+                          data-light-src="./img/pf1.png"
+                          data-dark-src="./img/pf1.png"
+                          alt="Weather Mobile App"
+                        />
+                      </a>
+                    </div>
+                    <div class="project-info">
+                      <h3>포트폴리오</h3>
+                      <p>첫 포트폴리오</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-inner" id="contact" style="display: none">
+            <div class="card-wrap">
+              <div class="content">
+                <div class="title">
+                  <span class="first-word"></span>
+                  <span><span class="tic1">G</span>et in Touch</span>
+                </div>
+                <div class="contact-container">
+                  <div class="map-container">
+                    <div id="map"></div>
+                  </div>
+                  <div class="contact-info">
+                    <p><strong>주소:</strong> 남양주시 호평동</p>
+                    <p><strong>메일:</strong> dtf5508@gmail.com</p>
+                    <p><strong>연락처:</strong> 010 8769 5502</p>
+                  </div>
+                  <p>
+                    지금까지 임성령의 포트폴리오를 열람해 주셔서 감사합니다!
+                  </p>
+                  <p>
+                    <span>열정</span>과 <span>성실함</span>을 바탕으로
+                  </p>
+                  <p>
+                    <span>발전</span>해가는 개발자가 되겠습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="project1-details"
+            class="project-details"
+            style="display: none"
+          >
+            <span class="close" onclick="closeProjectDetails()">&times;</span>
+            <div class="project-details-content">
+              <button class="prev" onclick="changeSlide(-1, 'project1')">
+                &#10094;
+              </button>
+              <button class="next" onclick="changeSlide(1, 'project1')">
+                &#10095;
+              </button>
+              <div class="slides project1">
+                <div class="slide active">
+                  <div class="slide-content">
+                    <img
+                      src="./img/p1.png"
+                      data-light-src="./img/p1.png"
+                      data-dark-src="./img/p1.png"
+                      alt="Weather Mobile App"
+                      class="slide-image"
+                    />
+                    <div class="slide-info">
+                      <h2>병무청</h2>
+                      <div class="tags">
+                        <div class="skill_title">기술스택</div>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">jQuery</span>
+                      </div>
+                      <div class="description">
+                        <p>메인,서브,로그인페이지 구현</p>
+                        <p>미디어 쿼리를 이용한 반응형 페이지 제작</p>
+                        <p>메인 자동 슬라이드 구현</p>
+                        <p>웹 접근성, 웹표준 준수</p>
+                      </div>
+                      <div class="details">
+                        <div class="detail">
+                          <span class="detail-title">디바이스</span>
+                          <span class="detail-info">PC <br />Mobile</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 페이지</span>
+                          <span class="detail-info">Index</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 기간</span>
+                          <span class="detail-info">3주</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">본인 기여도</span>
+                          <span class="detail-info">100%</span>
+                        </div>
+                      </div>
+                      <div class="links">
+                        <a
+                          href="https://lsy1168.github.io/project1/"
+                          target="_blank"
+                          class="link"
+                          >사이트 보기</a
+                        >
+                        <a
+                          href="https://github.com/lsy1168/project1"
+                          target="_blank"
+                          class="link"
+                          >깃허브 보기</a
+                        >
+                        <a
+                          href="https://drive.google.com/file/d/1U2wKNXbUv79b3on9qGpnHuC4HWOkZgdq/view?usp=drive_link"
+                          target="_blank"
+                          class="link"
+                          >기획서 보기</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-content2">
+                    <div class="slide-info">
+                      <h2>Description</h2>
+                      <div class="tags">
+                        <div class="skill_title2">메인슬라이드배너</div>
+                      </div>
+                      <div class="description">
+                        <p>
+                          $(document).ready() 함수를 사용하여 문서의 DOM이
+                          완전히 로드되면 내부 함수를 실행합니다. 먼저,
+                          슬라이드가 일시정지 상태인지 여부를 저장하는 변수
+                          isPaused를 false로 초기화합니다. 슬라이드
+                          박스(.slidebox)에 마우스를 올리면(mouseenter)
+                          isPaused를 true로, 마우스를 떠나면(mouseleave)
+                          isPaused를 false로 설정하여 자동 재생을 제어합니다.
+                        </p>
+                        <p>
+                          이후, slick 플러그인을 사용하여 슬라이드를
+                          초기화합니다. 이를 통해 중앙 정렬 모드(centerMode)를
+                          활성화하고, 중앙 패딩(centerPadding)을 설정하며,
+                          슬라이드 개수(slidesToShow)와 자동 재생(autoplay)을
+                          활성화합니다. 또한, 재생 간격(autoplaySpeed)을 밀리초
+                          단위로 설정하고, 화면 크기에 따른 설정(responsive)을
+                          적용합니다.
+                        </p>
+                        <p>
+                          슬라이드 박스(.slidebox) 다음에 동적으로 페이저 버튼을
+                          생성합니다. 각 버튼은 data-slide 속성을 가지며, 이를
+                          통해 해당 슬라이드 번호로 이동할 수 있습니다. 버튼을
+                          클릭하면 slickGoTo 메서드를 사용하여 해당 슬라이드로
+                          이동합니다.
+                        </p>
+                        <p>
+                          슬라이드 변경 전(beforeChange) isPaused가 false일 경우
+                          blurSlides 함수를 호출하여 슬라이드를 블러 처리합니다.
+                          변경 후(afterChange) 중앙 슬라이드의 블러 처리를
+                          제거하고, 다른 슬라이드의 크기를 축소합니다. 또한,
+                          현재 슬라이드에 해당하는 페이저 버튼에 active 클래스를
+                          추가합니다.
+                        </p>
+                        <p>
+                          이전 버튼을 클릭하면 배경 이미지가 왼쪽 화살표로, 다음
+                          버튼을 클릭하면 오른쪽 화살표로 변경됩니다. 커스텀
+                          이전/다음 버튼을 클릭하면 슬라이드가 이동합니다.
+                          마지막으로 jQuery와 slick 플러그인을 사용하여 슬라이드
+                          쇼를 구현했습니다.
+                        </p>
+                        <div class="description-imgs">
+                          <div class="">
+                            <p>구현 사진</p>
+                            <img
+                              src="./img/Implementation1.png"
+                              data-light-src="./img/Implementation1.png"
+                              data-dark-src="./img/Implementation1.png"
+                              alt=""
+                              class="impimg"
+                            />
+                          </div>
+                          <div class="">
+                            <p>
+                              Java Script 코드
+                              <span>(마우스를 올려주세요)</span>
+                            </p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/js1.png"
+                                data-light-src="./img/js1.png"
+                                data-dark-src="./img/js1.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                              <img
+                                src="./img/j2.png"
+                                data-light-src="./img/j2.png"
+                                data-dark-src="./img/j2.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                              <img
+                                src="./img/j3.png"
+                                data-light-src="./img/j3.png"
+                                data-dark-src="./img/j3.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details-info">
+                    <h2>2</h2>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-content2">
+                    <div class="slide-info">
+                      <h2>Description</h2>
+                      <div class="tags">
+                        <div class="skill_title2">로그인 및 로그아웃</div>
+                      </div>
+                      <div class="description">
+                        <p>
+                          loginBtn과 logoutBtn은 각각 로그인 버튼과 로그아웃
+                          버튼을 선택하는 변수입니다. text는 메인 배너의 h2
+                          요소를, textold는 이 요소의 원래 텍스트를 저장합니다.
+                          초기 설정으로 logoutBtn의 display 속성을 none으로
+                          설정하여 처음에는 보이지 않게 합니다.
+                        </p>
+                        <p>
+                          초기화 함수인 init는 로컬 스토리지에 사용자 데이터가
+                          없을 경우 기본 사용자 데이터를 설정하는 역할을 합니다.
+                          기본 데이터에는 아이디, 비밀번호, 로그인 상태가
+                          포함되며, 이는 사용자가 처음 페이지를 로드할 때
+                          설정됩니다.
+                        </p>
+                        <p>
+                          로그인 처리 과정에서는 사용자가 입력한 아이디와
+                          비밀번호를 확인하는데, login 함수는 입력된 정보가
+                          저장된 사용자 정보와 일치할 경우 로그인 성공 메시지를
+                          표시하고 메인 배너의 h2 요소를 사용자 이름과 함께
+                          갱신합니다. 또한, 입력 양식과 로그인 버튼을 숨기고
+                          로그아웃 버튼을 표시하며, 사용자의 isLoggedIn 상태를
+                          true로 설정하고 로컬 스토리지에 업데이트된 사용자
+                          정보를 저장합니다.
+                        </p>
+                        <p>
+                          로그아웃 처리 과정에서는 logout 함수가 사용자가 로그인
+                          상태일 때 로그아웃을 처리합니다. 로그아웃 성공
+                          메시지를 표시하고 사용자의 isLoggedIn 상태를 false로
+                          변경하여 로컬 스토리지에 저장하며, 메인 배너의 h2
+                          텍스트를 원래 상태로 복원하고 입력 양식과 로그인
+                          버튼을 다시 표시하며 로그아웃 버튼을 숨깁니다. 또한,
+                          입력 필드를 초기화합니다.
+                        </p>
+                        <p>
+                          로그인과 로그아웃 버튼에 대한 이벤트 리스너는 로그인
+                          버튼을 클릭하면 login 함수를, 로그아웃 버튼을 클릭하면
+                          logout 함수를 호출합니다. 이때 e.preventDefault()를
+                          사용하여 기본 동작(페이지 새로고침)을 방지합니다.
+                          마지막으로, 페이지가 로드될 때 init 함수를 호출하여
+                          로컬 스토리지에 기본 사용자 데이터를 설정하는데, 이를
+                          통해 페이지가 처음 로드될 때 사용자 데이터가 올바르게
+                          초기화게끔 구현했습니다.
+                        </p>
+                        <div class="description-imgs">
+                          <div class="">
+                            <p>구현 사진</p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/Implementation2.png"
+                                data-light-src="./img/Implementation2.png"
+                                data-dark-src="./img/Implementation2.png"
+                                alt=""
+                                class="impimg2"
+                              />
+                              <img
+                                src="./img/Implementation3.png"
+                                data-light-src="./img/Implementation3.png"
+                                data-dark-src="./img/Implementation3.png"
+                                alt=""
+                                class="impimg2"
+                              />
+                            </div>
+                          </div>
+                          <div class="">
+                            <p>
+                              Java Script 코드
+                              <span>(마우스를 올려주세요)</span>
+                            </p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/j4.png"
+                                data-light-src="./img/j4.png"
+                                data-dark-src="./img/j4.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                              <img
+                                src="./img/j5.png"
+                                data-light-src="./img/j5.png"
+                                data-dark-src="./img/j5.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details-info">
+                    <h2>3</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="project2-details"
+            class="project-details"
+            style="display: none"
+          >
+            <span class="close" onclick="closeProjectDetails()">&times;</span>
+            <div class="project-details-content">
+              <button class="prev" onclick="changeSlide(-1, 'project2')">
+                &#10094;
+              </button>
+              <button class="next" onclick="changeSlide(1, 'project2')">
+                &#10095;
+              </button>
+              <div class="slides project2">
+                <div class="slide active">
+                  <div class="slide-content">
+                    <img
+                      src="./img/p2.png"
+                      data-light-src="./img/p2.png"
+                      data-dark-src="./img/p2.png"
+                      alt="Weather Mobile App"
+                      class="slide-image"
+                    />
+                    <div class="slide-info">
+                      <h2>카카오</h2>
+                      <div class="tags">
+                        <div class="skill_title">기술스택</div>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">jQuery</span>
+                      </div>
+                      <div class="description">
+                        <p>메인,검색,햄버거메뉴 구현</p>
+                        <p>미디어 쿼리를 이용한 반응형 페이지 제작</p>
+                        <p>메인 슬라이드 쇼 구현</p>
+                      </div>
+                      <div class="details">
+                        <div class="detail">
+                          <span class="detail-title">디바이스</span>
+                          <span class="detail-info"
+                            >PC <br />Laptop <br />tablet <br />Mobile</span
+                          >
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 페이지</span>
+                          <span class="detail-info">Index</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 기간</span>
+                          <span class="detail-info">1주</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">본인 기여도</span>
+                          <span class="detail-info">100%</span>
+                        </div>
+                      </div>
+                      <div class="links">
+                        <a
+                          href="https://lsy1168.github.io/project3/"
+                          target="_blank"
+                          class="link"
+                          >사이트 보기</a
+                        >
+                        <a
+                          href="https://github.com/lsy1168/project3"
+                          target="_blank"
+                          class="link"
+                          >깃허브 보기</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-content2">
+                    <div class="slide-info">
+                      <h2>Description</h2>
+                      <div class="tags">
+                        <div class="skill_title2">
+                          드롭다운 메뉴, 카운터 애니메이션
+                        </div>
+                      </div>
+                      <div class="description">
+                        <p class="desti">드롭다운메뉴</p>
+                        <p>
+                          페이지 로드 시점에 DOMContentLoaded 이벤트가 발생하면
+                          스크립트가 실행되어 초기 설정을 완료합니다.
+                        </p>
+                        <p>
+                          이 과정에서 .dep-bt 클래스가 적용된 모든 드롭다운 버튼
+                          요소와 .sub 클래스가 적용된 모든 드롭다운 콘텐츠
+                          요소를 선택하여 변수에 저장합니다.
+                        </p>
+                        <p>
+                          슬라이드 박스(.slidebox) 다음에 동적으로 페이저 버튼을
+                          생성합니다. 각 버튼은 data-slide 속성을 가지며, 이를
+                          통해 해당 슬라이드 번호로 이동할 수 있습니다. 버튼을
+                          클릭하면 slickGoTo 메서드를 사용하여 해당 슬라이드로
+                          이동합니다.
+                        </p>
+                        <p>
+                          이후 각 드롭다운 버튼에 클릭 이벤트 리스너를 추가하여,
+                          클릭 시 기본 동작을 막고, 모든 드롭다운 콘텐츠를 숨긴
+                          후 클릭된 버튼에 해당하는 드롭다운 콘텐츠를
+                          표시합니다.
+                        </p>
+                        <p>
+                          또한, 문서의 다른 부분을 클릭하면 모든 드롭다운
+                          콘텐츠를 숨기도록 하여, 드롭다운 메뉴가 다른 부분을
+                          클릭 시 자동으로 닫히도록 구현했습니다.
+                        </p>
+                        <p class="desti">카운터 애니메이션</p>
+                        <p>
+                          페이지가 로드되면 특정 숫자를 애니메이션으로
+                          카운트업하기 위해 스크립트가 실행됩니다. 시작 값, 종료
+                          값, 애니메이션 지속 시간, 초당 프레임 수를 정의하고
+                          필요한 변수를 했습니다.
+                        </p>
+                        <p>
+                          updateCounter 함수는 현재 카운트 값을 HTML 요소에
+                          업데이트하고, current 값이 end 값보다 작으면 프레임당
+                          증가량을 더해 다음 프레임을 요청합니다.
+                        </p>
+                        <p>
+                          startCounter 함수는 프레임당 증가량을 계산하고, 현재
+                          값을 시작 값으로 초기화한 후 updateCounter 함수를
+                          호출하여 애니메이션을 시작하게끔 구현했습니다.
+                        </p>
+                        <div class="description-imgs">
+                          <div class="">
+                            <p>구현 사진</p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/Implementation4.png"
+                                data-light-src="./img/Implementation4.png"
+                                data-dark-src="./img/Implementation4.png"
+                                alt=""
+                                class="impimg3"
+                              />
+                              <img
+                                src="./img/Implementation5.png"
+                                data-light-src="./img/Implementation5.png"
+                                data-dark-src="./img/Implementation5.png"
+                                alt=""
+                                class="impimg3"
+                              />
+                            </div>
+                          </div>
+                          <div class="">
+                            <p>
+                              Java Script 코드
+                              <span>(마우스를 올려주세요)</span>
+                            </p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/j6.png"
+                                data-light-src="./img/j6.png"
+                                data-dark-src="./img/j6.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                              <img
+                                src="./img/j7.png"
+                                data-light-src="./img/j7.png"
+                                data-dark-src="./img/j7.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details-info">
+                    <h2>2</h2>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-content2">
+                    <div class="slide-info">
+                      <h2>Description</h2>
+                      <div class="tags">
+                        <div class="skill_title2">슬라이드 쇼</div>
+                      </div>
+                      <div class="description">
+                        <p>
+                          페이지가 로드되면 DOMContentLoaded 이벤트가 발생하여
+                          초기 설정이 완료됩니다. 이 시점에서 다양한 요소들이
+                          선택되고 이벤트 리스너가 추가됩니다.
+                        </p>
+                        <p>
+                          button 변수는 .s2-topbutton 요소를 선택하며,
+                          backgrounds 배열은 버튼 클릭 시 적용할 배경 이미지를
+                          정의합니다.
+                        </p>
+                        <p>
+                          currentBackgroundIndex는 현재 배경 이미지의 인덱스를,
+                          isSliderPaused는 슬라이드 애니메이션의 일시정지 상태를
+                          저장합니다. 버튼 클릭 시 배경 이미지를 변경하고
+                          슬라이드 애니메이션을 제어합니다.
+                        </p>
+                        <p>
+                          sliderElement는 .s2_bottom ul 요소를 선택하며,
+                          slideSpeed는 슬라이드 애니메이션의 속도를 정의합니다.
+                          currentPosition은 슬라이드의 현재 위치를 저장합니다.
+                        </p>
+                        <p>
+                          마우스 오버와 아웃 이벤트 리스너는 슬라이드
+                          애니메이션을 일시정지하거나 재개하고, slide 함수는
+                          슬라이드 위치를 업데이트하며 필요한 경우 요소를
+                          재배치합니다. requestAnimationFrame을 사용하여
+                          부드러운 애니메이션을 구현합니다.
+                        </p>
+                        <p>
+                          links 변수는 .ft-bt > ul > li > a 요소를 선택합니다.
+                          각 링크 클릭 시 기본 동작을 막고, 부모 li 요소에
+                          active 클래스를 토글하며 transition 스타일을
+                          설정합니다. toggler 변수는
+                          'a[href="javascript:void(0);"]' 요소를 선택하며, 클릭
+                          시 다음 형제 요소인 .show-box1의 표시 상태를
+                          토글합니다.
+                        </p>
+                        <p>
+                          부모 li 요소에 on 클래스를 토글하고 리스트의 맨 앞으로
+                          이동시킵니다. 형제 요소들의 on 클래스를 제거하여 다른
+                          요소들이 비활성화되도록 구현했습니다.
+                        </p>
+                        <div class="description-imgs">
+                          <div class="">
+                            <p>구현 사진</p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/Implementation6.png"
+                                data-light-src="./img/Implementation6.png"
+                                data-dark-src="./img/Implementation6.png"
+                                alt=""
+                                class="impimg4"
+                              />
+                            </div>
+                          </div>
+                          <div class="">
+                            <p>
+                              Java Script 코드
+                              <span>(마우스를 올려주세요)</span>
+                            </p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/j8.png"
+                                data-light-src="./img/j8.png"
+                                data-dark-src="./img/j8.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                              <img
+                                src="./img/j9.png"
+                                data-light-src="./img/j9.png"
+                                data-dark-src="./img/j9.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details-info">
+                    <h2>3</h2>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-content2">
+                    <div class="slide-info">
+                      <h2>Description</h2>
+                      <div class="tags">
+                        <div class="skill_title2">햄버거 메뉴, 검색메뉴</div>
+                      </div>
+                      <div class="description">
+                        <p class="desti">햄버거 메뉴</p>
+                        <p>
+                          페이지 로드 시 DOMContentLoaded 이벤트가 발생하면 초기
+                          설정이 완료됩니다. 이 시점에서 햄버거 메뉴와 관련된
+                          다양한 요소들이 선택되고 이벤트 리스너가 추가됩니다.
+                        </p>
+                        <p>
+                          먼저, hamburger 변수는 .hamburger 클래스를 가진
+                          요소를, hamburgerMenu 변수는 .hamburger-menu 클래스를,
+                          closeButton 변수는 .close-button 클래스를 가진 요소를
+                          선택합니다.
+                        </p>
+                        <p>
+                          햄버거 메뉴 열기/닫기를 위해 hamburger 클릭 시,
+                          hamburgerMenu에 active 클래스를 토글하고,
+                          document.body에 hamburger-menu-open 클래스를
+                          토글합니다.
+                        </p>
+                        <p>
+                          closeButton 클릭 시에는 이벤트 전파를 방지하고,
+                          hamburgerMenu에서 active 클래스를 제거하며,
+                          document.body에서 hamburger-menu-open 클래스를
+                          제거합니다.
+                        </p>
+                        <p>
+                          hamburgerMenu 클릭 시에도 이벤트 전파를 방지합니다.
+                          문서의 다른 부분을 클릭하면 hamburgerMenu에서 active
+                          클래스를 제거하고, document.body에서
+                          hamburger-menu-open 클래스를 제거합니다.
+                        </p>
+                        <p>
+                          서브 메뉴 토글을 위해 menuItems 변수는 .menu > ul > li
+                          요소들을 선택합니다. 각 메뉴 아이템을 클릭하면 자식
+                          요소인 .sub-menu의 active 클래스를 토글하게끔
+                          구현했습니다.
+                        </p>
+                        <p class="desti">검색메뉴</p>
+                        <p>
+                          페페이지 로드 시 DOMContentLoaded 이벤트가 발생하면
+                          검색 기능과 관련된 요소들이 선택되고 이벤트 리스너가
+                          추가됩니다.
+                        </p>
+                        <p>
+                          searchButton 변수는 id가 searchButton인 요소를,
+                          searchMenu 변수는 .search-menu 클래스를 가진 요소를,
+                          closeButton 변수는 .sh-close-button 클래스를 가진
+                          요소를, mainContent 변수는 main 요소를 선택합니다.
+                        </p>
+                        <p>
+                          검색 메뉴 열기/닫기를 위해 searchButton 클릭 시,
+                          searchMenu에 active 클래스를 토글하고, mainContent에
+                          blur 클래스를 토글합니다. closeButton 클릭 시에는
+                          searchMenu에서 active 클래스를 제거하고,
+                          mainContent에서 blur 클래스를 제거하게끔 구현했습니다.
+                        </p>
+                        <div class="description-imgs">
+                          <div class="">
+                            <p>구현 사진</p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/Implementation7.png"
+                                data-light-src="./img/Implementation7.png"
+                                data-dark-src="./img/Implementation7.png"
+                                alt=""
+                                class="impimg2"
+                              />
+                              <img
+                                src="./img/Implementation8.png"
+                                data-light-src="./img/Implementation8.png"
+                                data-dark-src="./img/Implementation8.png"
+                                alt=""
+                                class="impimg2"
+                              />
+                              <img
+                                src="./img/Implementation9.png"
+                                data-light-src="./img/Implementation9.png"
+                                data-dark-src="./img/Implementation9.png"
+                                alt=""
+                                class="impimg2"
+                              />
+                            </div>
+                          </div>
+                          <div class="">
+                            <p>
+                              Java Script 코드
+                              <span>(마우스를 올려주세요)</span>
+                            </p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/j10.png"
+                                data-light-src="./img/j10.png"
+                                data-dark-src="./img/j10.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                              <img
+                                src="./img/j11.png"
+                                data-light-src="./img/j11.png"
+                                data-dark-src="./img/j11.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details-info">
+                    <h2>4</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="project3-details"
+            class="project-details"
+            style="display: none"
+          >
+            <span class="close" onclick="closeProjectDetails()">&times;</span>
+            <div class="project-details-content">
+              <button class="prev" onclick="changeSlide(-1, 'project3')">
+                &#10094;
+              </button>
+              <button class="next" onclick="changeSlide(1, 'project3')">
+                &#10095;
+              </button>
+              <div class="slides project3">
+                <div class="slide active">
+                  <div class="slide-content">
+                    <img
+                      src="./img/fifago.jpg"
+                      data-light-src="./img/fifago.jpg"
+                      data-dark-src="./img/fifago.jpg"
+                      alt="Weather Mobile App"
+                      class="slide-image"
+                    />
+                    <div class="slide-info">
+                      <h2>피파고</h2>
+                      <div class="tags">
+                        <div class="skill_title">기술스택</div>
+                        <span class="tag">Figma</span>
+                      </div>
+                      <div class="description">
+                        <p>UI,UX 중점 구현</p>
+                        <p>프로토타입 앱 구현</p>
+                        <p>팀 프로젝트</p>
+                      </div>
+                      <div class="details">
+                        <div class="detail">
+                          <span class="detail-title">디바이스</span>
+                          <span class="detail-info">Mobile</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 페이지</span>
+                          <span class="detail-info">Figma</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 기간</span>
+                          <span class="detail-info">2주</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">본인 기여도</span>
+                          <span class="detail-info">30%</span>
+                        </div>
+                      </div>
+                      <div class="links">
+                        <a
+                          href="https://www.figma.com/proto/abDmlL24946Em10wOzfDr2/%ED%94%BC%ED%8C%8C%EA%B3%A0?page-id=2433%3A29074&type=design&node-id=2448-30834&viewport=552%2C776%2C0.21&t=aBAX7P4ZluVkvxsz-1&scaling=scale-down&starting-point-node-id=2448%3A30928&show-proto-sidebar=1"
+                          target="_blank"
+                          class="link"
+                          >프로토타입</a
+                        >
+                        <a
+                          href="https://drive.google.com/file/d/1hbQZh81dXLrKM8VFYh70ZYXgoq_W5m4B/view"
+                          target="_blank"
+                          class="link"
+                          >기획서 보기</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            id="project4-details"
+            class="project-details"
+            style="display: none"
+          >
+            <span class="close" onclick="closeProjectDetails()">&times;</span>
+            <div class="project-details-content">
+              <button class="prev" onclick="changeSlide(-1, 'project4')">
+                &#10094;
+              </button>
+              <button class="next" onclick="changeSlide(1, 'project4')">
+                &#10095;
+              </button>
+              <div class="slides project4">
+                <div class="slide active">
+                  <div class="slide-content">
+                    <img
+                      src="./img/pf1.png"
+                      data-light-src="./img/pf1.png"
+                      data-dark-src="./img/pf1.png"
+                      alt="#"
+                      class="slide-image"
+                    />
+                    <div class="slide-info">
+                      <h2>학원수료 포트폴리오</h2>
+                      <div class="tags">
+                        <div class="skill_title">기술스택</div>
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">jQuery</span>
+                      </div>
+                      <div class="description">
+                        <p></p>
+                        <p>미디어 쿼리를 이용한 반응형 페이지 제작</p>
+                        <p>바닐라 자바스크립트로 스크롤 애니메이션 구현</p>
+                        <p>
+                          제이쿼리,Gsap 라이브러리를 이용한 프로젝트 스크롤 효과
+                          구현
+                        </p>
+                      </div>
+                      <div class="details">
+                        <div class="detail">
+                          <span class="detail-title">디바이스</span>
+                          <span class="detail-info">PC,Mobile</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 페이지</span>
+                          <span class="detail-info">메인페이지</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">제작 기간</span>
+                          <span class="detail-info">1주</span>
+                        </div>
+                        <div class="detail">
+                          <span class="detail-title">본인 기여도</span>
+                          <span class="detail-info">100%</span>
+                        </div>
+                      </div>
+                      <div class="links">
+                        <a
+                          href="https://lsy1168.github.io/Portfolio/"
+                          target="_blank"
+                          class="link"
+                          >사이트 보기</a
+                        >
+                        <a
+                          href="https://github.com/lsy1168/Portfolio"
+                          target="_blank"
+                          class="link"
+                          >깃허브 보기</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-content2">
+                    <div class="slide-info">
+                      <h2>Description</h2>
+                      <div class="tags">
+                        <div class="skill_title2">스크롤 애니메이션</div>
+                      </div>
+                      <div class="description">
+                        <p>
+                          스크롤 애니메이션은 window.onscroll을 활용하여,
+                          브라우저 창에서 스크롤 이벤트가 발생할 때마다 특정
+                          함수가 실행되도록 설정하였습니다.
+                        </p>
+                        <p>
+                          먼저 window.pageYOffset을 이용하여 스크롤된 높이
+                          정보를 height 변수에 저장하였고, window.innerWidth를
+                          사용하여 화면의 너비를 width 변수에 저장했습니다.
+                        </p>
+                        <p>
+                          각 섹션의 요소들을 대상으로 if-else 조건문을 사용하여
+                          다양한 화면 크기와 스크롤 위치에 따라 스타일을
+                          동적으로 적용합니다.
+                        </p>
+                        <p>
+                          예를 들어, sec1Title이라는 변수를 대상으로, 화면의
+                          너비가 2200px 이상인 경우와 그렇지 않은 경우를
+                          구분하여 조건적으로 스타일을 적용합니다.
+                        </p>
+                        <p>
+                          화면 높이가 특정 값 이상인 경우와 그렇지 않은 경우에
+                          따라 opacity와 transform 스타일을 변경합니다. 이러한
+                          조건문을 통해 다양한 화면 크기와 스크롤 위치에서 각
+                          섹션에 다른 스타일을 적용할 수 있습니다.
+                        </p>
+                        <p>
+                          이러한 방식으로 반응형 디자인에서 설정한 조건에 따라
+                          각 섹션이 스크롤 위치와 화면 너비에 맞춰 정상적으로
+                          작동하도록 구현하였습니다.
+                        </p>
+                        <div class="description-imgs">
+                          <div class="">
+                            <p>구현 사진</p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/Implementation10.png"
+                                data-light-src="./img/Implementation10.png"
+                                data-dark-src="./img/Implementation10.png"
+                                alt=""
+                                class="impimg"
+                              />
+                            </div>
+                          </div>
+                          <div class="">
+                            <p>
+                              Java Script 코드
+                              <span>(마우스를 올려주세요)</span>
+                            </p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/j12.png"
+                                data-light-src="./img/j12.png"
+                                data-dark-src="./img/j12.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                              <img
+                                src="./img/j14.png"
+                                data-light-src="./img/j14.png"
+                                data-dark-src="./img/j14.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details-info">
+                    <h2>2</h2>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="slide-content2">
+                    <div class="slide-info">
+                      <h2>Description</h2>
+                      <div class="tags">
+                        <div class="skill_title2">프로젝트 스크롤 효과</div>
+                      </div>
+                      <div class="description">
+                        <p>
+                          프로젝트 스크롤 효과를 구현하기 위해 gsap과
+                          ScrollTrigger를 사용하였습니다.
+                        </p>
+                        <p>
+                          먼저, gsap.utils.toArray('.project_scroll')을 통해
+                          .project_scroll 클래스를 가진 모든 요소들을 배열로
+                          변환하여 projects 변수에 저장합니다.
+                        </p>
+                        <p>
+                          이후, ScrollTrigger.create를 사용하여 스크롤 트리거를
+                          설정합니다. trigger 속성에 projects 배열을 지정하여,
+                          각 프로젝트 요소가 스크롤 트리거로 작동하도록
+                          설정합니다.
+                        </p>
+                        <p>
+                          start와 end 속성은 스크롤 위치를 지정하여 애니메이션의
+                          시작과 끝을 정의합니다.
+                        </p>
+                        <p>
+                          pinSpacing 속성을 false로 설정하여 고정된 요소 주위에
+                          여백이 생기지 않도록 하였고, scrub 속성을 0.5로
+                          설정하여 스크롤 시 애니메이션이 부드럽게 진행되도록
+                          하였습니다.
+                        </p>
+                        <p>
+                          onEnter 콜백 함수로 pipScroll 함수를 호출하여 요소가
+                          뷰포트에 들어올 때 애니메이션을 시작합니다.
+                        </p>
+                        <p>
+                          pipScroll 함수 내에서는 jQuery를 사용하여 .mockup
+                          클래스를 가진 모든 요소들을 선택합니다.
+                        </p>
+                        <p>
+                          device 요소에 대해 마우스 이벤트를 설정하여,
+                          mouseenter 이벤트 시 화면의 높이 차이만큼
+                          애니메이션으로 위로 이동시키고, mouseleave 이벤트 시
+                          원래 위치로 돌아가도록 하였습니다
+                        </p>
+                        <p>
+                          이를 통해 사용자가 프로젝트 요소에 마우스를 올리면
+                          부드럽게 스크롤하는 애니메이션 효과를 구현하였습니다.
+                        </p>
+                        <div class="description-imgs">
+                          <div class="">
+                            <p>구현 사진</p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/Implementation11.png"
+                                data-light-src="./img/Implementation11.png"
+                                data-dark-src="./img/Implementation11.png"
+                                alt=""
+                                class="impimg"
+                              />
+                            </div>
+                          </div>
+                          <div class="">
+                            <p>
+                              Java Script 코드
+                              <span>(마우스를 올려주세요)</span>
+                            </p>
+                            <div class="imgs-df">
+                              <img
+                                src="./img/j13.png"
+                                data-light-src="./img/j13.png"
+                                data-dark-src="./img/j13.png"
+                                alt=""
+                                class="jsimg"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="details-info">
+                    <h2>3</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+      <div class="rain-container">
+        <div class="raindrop"></div>
+      </div>
+    </div>
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=f493e9e256c6980ed41a06c902d30993"
+    ></script>
+    <script src="./js/01.js"></script>
+  </body>
+</html>
