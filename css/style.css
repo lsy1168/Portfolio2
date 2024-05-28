@@ -1086,6 +1086,7 @@ a {
   color: #f6b846;
 }
 .slide-content2 .slide-info {
+  width: 100%;
   max-width: 100%;
 }
 .skill_title:before {
@@ -1132,7 +1133,7 @@ a {
   font-size: 14px;
 }
 .description .jsimg{
-width: 300px;
+width: 15vw;
 }
 .links {
   display: flex;
@@ -1146,16 +1147,16 @@ width: 300px;
   justify-content: space-between;
 }
 .description .impimg{
-  width: 600px;
+  width: 20vw;
 }
 .description .impimg2 {
-  width: 350px;
+  width: 15vw;
 }
 .description .impimg3 {
-  width: 350px;
+  width: 20vw;
 }
 .description .impimg4 {
-  width: 800px;
+  width: 20vw;
 }
 .jsimg{
   width: 100%; /* 이미지를 컨테이너 너비에 맞춤 */
@@ -1216,6 +1217,7 @@ width: 300px;
 
 .slides .slide.active {
   display: block;
+  width: 100%;
 }
 
 .prev, .next {
